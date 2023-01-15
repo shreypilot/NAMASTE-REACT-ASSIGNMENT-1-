@@ -1,0 +1,40 @@
+What is Emmet ?
+Emmet (formerly zen coding) is a set of plug-ins for text editors that allow for
+ high - speed coding and editing in Html,xml,xslt, and other structured code formats via content assist
+
+Differences between a framework and library .
+ the term  "inversion of control" describes the technical distonction between a framework and a library.
+ you have complete control over the application's flow when you use a library.
+ you get to decide when and wghere you want to call the library.
+ while when using a framework,the flow is controlled by the framework itself.
+
+
+ what is CDN ?why do we use it ?
+ A CDN is content delivery network. primary goal of a cdn is to improve web performance by reducing the time needed to send content.
+ it reduce network latency caused by traffic over long distances.
+ eliminating latency is important as more dynamic content,video and software as a service are delivered to an increasing number of mobile devices
+
+ why  is React known as React ?
+ React was developed for application (facebook) that have constantly changing data.
+ since React is a front - end framework or the "view"in MVC, this means that as the user clicks around and changes tha App's data, the view should "react" or change with those user events.
+ user events being mouse clicks,typing,submitting a form.
+
+ what is crossorigin in script tag ?
+ The purpose of crossorigin attributes is used to share the resources from one domain to another domain.
+ Basically, it is used to handle the CORS request
+ The react package holds the react source for components,state,props and all the code that is react.
+
+ what is difference between React and ReactDom ?
+ The react-dom package as the name implies is the glue between React and the DOM. 
+Often, you will only use it for one single thing: 
+mounting your application to the index.html file with ReactDOM.render().
+
+What is difference between react.development.js and react.production.js files via CDN?
+
+The development build is used - as the name suggests - for development reasons. 
+The production build, on the other hand, runs in production mode which means 
+this is the code running on your client's machine.
+
+What is async and defer?
+async - fetched from network on parallel and executes by stopping html parsing
+defer - fetched from network on parallel and executes once html parsing is completed
